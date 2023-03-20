@@ -1,0 +1,162 @@
+.main{
+    background-image: url(Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    animation: animation 5s infinite;
+    animation-name: animation;
+    animation-duration:10s;
+    animation-delay: 3s;
+}
+@keyframes animation{
+    form{background-image:url(Capture.PNG);}
+        to{background-image: url(juan-manuel-martinez-fanta-render.jpg)}
+}
+#logo{
+    width: 160px;
+    max-height: 50px;
+    margin-left: 6% ;
+    float: left;
+}
+header{
+    margin-top: -8px;
+    position: fixed;
+    box-shadow: 1px 3px 50px gray;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+.navbar{
+    float:right ;
+    margin: 15px 8%;
+}
+a:hover{
+    color: rgb(255, 136, 0);
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(57, 57, 57, 0.672);
+    padding:10px 20px ;
+    line-height: 10px;
+}
+.about-page p{
+    font-family: "Vijaya";
+    font-size: 22px;
+}
+.title{
+    background-color: rgba(128, 128, 128, 0.145);
+    padding: 1px 25px;
+}
+.clear{
+    clear: both;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.row1 .some-pro{
+    width: 24%;
+    margin: 10px;
+}
+.some-pro img{
+    width: 100%;
+    height: 250px;
+}
+.some-pro{
+    position: relative;
+}
+.card-text{
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    width: 374px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.card-text:hover{
+    opacity: .8;
+  }
+.row01{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.row01 .add{
+    width: 30%;
+    margin: 10px;
+    box-shadow: 1px 2px 18px gray;
+    padding: 10px;
+}
+.row01 .email-call{
+    width: 24%;
+    margin: 10px;
+    box-shadow: 1px 2px 18px gray;
+    padding: 10px;
+}
+.row02{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.row02 .contact-map{
+    width: 44%;
+    margin: 10px;
+    box-shadow: 1px 2px 18px gray;
+}
+.row02 .contact-form{
+    width: 36%;
+    margin: 10px;
+    box-shadow: 1px 2px 18px gray;
+    padding:40px 20px ;
+}
+#icon{
+    color: rgb(255, 72, 0);
+}
+input{
+    width: 42%;
+    height: 30px;
+    margin: 10px;
+}
+#button{
+    color: white;
+    border: none;
+    height: 38px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(255, 72, 0);
+    margin-top: 20px;
+}
+.row1-footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+}
+.row1-footer .input{
+    width: 40%;
+    margin: 10px;
+}
+.row2-footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.805);
+    color: white;
+}
+.row2-footer .links{
+    width: 20%;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
